@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} About {% endblock %}
+
+{% block content %}
+
+<div class="col-12">
+    <h1> Django blog </h1>
+    <hr/>
+
+    <div class="row">
+        <div class="col-md-9">
+            <p class="lead">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestias tempore quas omnis illum repellat aspernatur libero, aut explicabo, aliquid delectus quasi voluptatibus iure debitis ea necessitatibus cumque? Ipsam, ullam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt magni eaque assumenda maxime porro tenetur sequi quidem fugit nam. Soluta quasi illum officia enim odit architecto nostrum illo ullam voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit est mollitia voluptas veritatis sint ipsa, commodi nihil reiciendis? Debitis repellat voluptatibus enim, error eum ipsa ex velit quam quas.
+            </p>
+            <p>
+                Deserunt magni eaque assumenda maxime porro tenetur sequi quidem fugit nam. Soluta quasi illum officia enim odit architecto nostrum illo ullam voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit est mollitia voluptas veritatis sint ipsa, commodi nihil reiciendis? Debitis repellat voluptatibus enim, error eum ipsa ex velit quam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero maxime laborum aperiam autem reiciendis at vitae iste cupiditate velit, natus sapiente obcaecati atque quas debitis rem, ea quo repellendus adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam corporis accusantium quod consequatur in culpa inventore doloribus, incidunt velit dolorum tempora possimus recusandae, hic expedita obcaecati eum dicta aspernatur?
+            </p>
+        </div>
+        <div class="col-md-3">
+                <img src="{% static 'img/about.png' %}" class="img-fluid">
+            </div>
+    </div>
+</div>
+
+{% endblock %}
